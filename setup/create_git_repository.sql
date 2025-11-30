@@ -2,10 +2,10 @@ USE ROLE DATA_ENGINEER;
 CREATE SCHEMA WS_DEMO_DB.DEPLOY;
 
 CREATE OR REPLACE GIT REPOSITORY WS_DEMO_GIT_REPO
-  API_INTEGRATION = WS_DEMO_GIT_INTEGRATION
-  ORIGIN = 'https://github.com/mferle/snowflake-workspaces';
+  API_INTEGRATION = int_sf_workspace_outh
+  ORIGIN = 'https://github.com/oodata-de/snowflake-workspaces';
 
-ALTER GIT REPOSITORY WS_DEMO_GIT_REPO FETCH;
+ALTER GIT REPOSITORY WS_DEMO_GIT_REPO FETCH; -- from repo to stage
 
 LS @WS_DEMO_GIT_REPO/branches/main;
 

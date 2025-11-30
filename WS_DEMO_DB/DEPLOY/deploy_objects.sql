@@ -1,4 +1,4 @@
-execute immediate from '../EX/create_CUSTOMER_EX.sql';
+execute immediate from '../EX/create_CUSTOMER_EX.sql'; -- executes from SF internal stage
 execute immediate from '../EX/create_LINEITEM_EX.sql';
 execute immediate from '../EX/create_ORDERS_EX.sql';
 execute immediate from '../EX/create_PART_EX.sql';
@@ -17,3 +17,4 @@ execute immediate from '../MART/create_FACT_ORDERS.sql';
 -- to deploy all objects
 --ALTER GIT REPOSITORY WS_DEMO_DB.DEPLOY.WS_DEMO_GIT_REPO FETCH;
 --execute immediate from @WS_DEMO_DB.DEPLOY.WS_DEMO_GIT_REPO/branches/main/WS_DEMO_DB/DEPLOY/deploy_objects.sql;
+
