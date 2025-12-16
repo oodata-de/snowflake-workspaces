@@ -9,3 +9,7 @@ ALTER GIT REPOSITORY WS_DEMO_GIT_REPO FETCH; -- from repo to stage
 
 LS @WS_DEMO_GIT_REPO/branches/main;
 
+
+
+SHOW INTEGRATIONS;
+

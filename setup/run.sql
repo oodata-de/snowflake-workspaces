@@ -1,0 +1,1 @@
+ls @WS_DEMO_DB.DEPLOY.WS_DEMO_GIT_REPO/branches/main;
