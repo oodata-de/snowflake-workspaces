@@ -18,3 +18,7 @@ execute immediate from '../MART/create_FACT_ORDERS.sql';
 --ALTER GIT REPOSITORY WS_DEMO_DB.DEPLOY.WS_DEMO_GIT_REPO FETCH;
 --execute immediate from @WS_DEMO_DB.DEPLOY.WS_DEMO_GIT_REPO/branches/main/WS_DEMO_DB/DEPLOY/deploy_objects.sql;
 
+EXECUTE NOTEBOOK "TESTING"."NOTEBOOKS"."My First Notebook Project"()
+
+show notebooks;
+
