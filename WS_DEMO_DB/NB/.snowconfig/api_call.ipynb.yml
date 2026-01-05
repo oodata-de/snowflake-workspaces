@@ -1,0 +1,5 @@
+location:
+  database: TESTING
+  schema: NOTEBOOKS
+  name: SNOWFLAKE_WORKSPACES_PROJ_69EEA109
+role: ACCOUNTADMIN
