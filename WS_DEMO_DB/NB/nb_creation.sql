@@ -35,3 +35,9 @@ show notebook projects;
 -- create dbt project from workspace; git integration probably needed
 create or replace dbt project TASTY_BYTES_DBT_DB.DEV.TASTY_BYTES_DBT_PROJECT_1
 	from snow://workspace/USER$DECLOUD6.PUBLIC."dbt"/versions/live/tasty_bytes_dbt_demo/;
+
+SHOW WORKSPACES IN DATABASE USER$DECLOUD6 ;
+
+DESC WORKSPACE 'USER$DECLOUD6'.'PUBLIC'.'snowflake-workspaces'
+
+DESC WORKSPACE dbt_projects
